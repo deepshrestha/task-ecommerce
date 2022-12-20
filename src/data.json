@@ -1,0 +1,16 @@
+[
+    {
+      "productID": 1,
+      "productImage": "/assets/public/images/product1.png",
+      "productName": "Wai Wai Jumbo",
+      "productPrice": "25.00",
+      "productWeight": "120gm"
+    },
+    {
+      "productID": 2,
+      "productImage": "/assets/public/images/product2.png",
+      "productName": "Current Cheese Ball",
+      "productPrice": "50.00",
+      "productWeight": "200gm"
+    }
+  ]

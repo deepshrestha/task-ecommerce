@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background: #222327;
+}
+table {
+    table-layout: inherit;
+    max-width:100%;
+    white-space:nowrap;
+}
+td,
+th {
+    vertical-align: middle !important;
+}
+.content-wrapper {
+    min-height: calc(100vh - 100px);
+}
+.inputText {
+    padding: 4px 5px;
+    margin: 2px auto;
+    vertical-align: middle;
+    width: 350px;
+    font-size: 14px;
+    border: 1px solid #87ceeb;
+    border-radius: 3px;
+}
+#login-page {
+    padding: 7em 0;
+    text-align: center;
+}
+.form-login-box {
+    width: clamp(450px, 50%, 550px);
+    border: 1px solid #ccc;
+    padding: 1.5rem;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.img-product {
+    width: 120px;
+    height: 100px;
+}
+.form-outline {
+    position: relative;
+    width: 100%;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.form-outline .form-control {
+    min-height: auto;
+    padding: 0.32rem 0.75rem;
+    border: 0;
+    background: transparent;
+    transition: all .2s linear;
+    background-color: #fff !important;
+    border: 1px solid #bdbdbd !important;
+}
+.form-outline .form-control~.form-label {
+    position: absolute;
+    top: 0;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    left: 0.75rem;
+    padding-top: 0.37rem;
+    pointer-events: none;
+    transform-origin: 0 0;
+    transition: all .2s ease-out;
+    color: rgba(0,0,0,.6);
+    margin-bottom: 0;
+}
